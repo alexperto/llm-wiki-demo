@@ -25,7 +25,7 @@ Each word gets a **different vector** that changes based on:
 - Position in the sequence
 - Semantic relationships with neighbors
 
-**Computed via [[attention mechanism]]:**
+**Computed via [[attention-mechanism]]:**
 - Build embedding by selectively integrating information from neighboring words
 - Word "attends to" relevant context words
 - Different contexts → different attention patterns → different embeddings
@@ -62,13 +62,13 @@ Each layer creates increasingly sophisticated contextual embeddings.
 - Same vector for word regardless of context
 
 ### Transformer (2017)
-- [[Transformer]] architecture enables contextual embeddings through [[attention mechanism]]
+- [[Transformer]] architecture enables contextual embeddings through [[attention-mechanism]]
 - Each layer produces more contextual representations
 
 ### BERT (2018)
 - **"Pre-training Deep Bidirectional **Contextual** Representations"**
 - Explicitly designed for contextual embeddings
-- Bidirectional context from [[masked language model]]
+- Bidirectional context from [[masked-language-model]]
 - Called "contextual word embeddings"
 
 ### GPT-3 (2020)
@@ -79,7 +79,7 @@ Each layer creates increasingly sophisticated contextual embeddings.
 ### Modern Understanding (Foundation Models, 2021)
 - Contextual embeddings recognized as core capability
 - Scale increases richness of contextual representations
-- [[In-context learning]] leverages contextual embeddings
+- [[in-context-learning]] leverages contextual embeddings
 
 ## Comparison: Static vs Contextual
 
@@ -92,13 +92,13 @@ Each layer creates increasingly sophisticated contextual embeddings.
 | Examples | Word2Vec, GloVe | [[BERT]], [[GPT-3]] outputs |
 
 ## Related Concepts
-- [[attention mechanism]]
+- [[attention-mechanism]]
 - [[self-attention]]
 - [[Transformer]]
 - [[BERT]]
 - [[GPT-3]]
-- [[multi-head attention]]
-- [[in-context learning]]
+- [[multi-head-attention]]
+- [[in-context-learning]]
 
 ## References
 - "Attention Is All You Need" (Vaswani et al., 2017)

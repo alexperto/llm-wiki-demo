@@ -7,12 +7,12 @@ An attention mechanism allows a model to focus on different parts of the input w
 Attention mechanisms have become integral to sequence modeling and transduction models. The [[Transformer]] paper introduced **scaled dot-product attention** as the core building block.
 
 ### Core Intuition
-Attention allows computing a representation for a token by **selectively attending to and integrating information** from surrounding tokens. We say a token "attends to" some neighboring tokens more than others, building up [[contextual embeddings]].
+Attention allows computing a representation for a token by **selectively attending to and integrating information** from surrounding tokens. We say a token "attends to" some neighboring tokens more than others, building up [[contextual-embeddings]].
 
 ### Types of Attention
 - **Self-Attention**: Relates different positions of a single sequence to compute a representation (see [[self-attention]])
 - **Cross-Attention**: Attends from one sequence to another (used in encoder-decoder models)
-- **Multi-Head Attention**: Uses multiple attention mechanisms in parallel (see [[multi-head attention]])
+- **Multi-Head Attention**: Uses multiple attention mechanisms in parallel (see [[multi-head-attention]])
 
 ### Query-Key-Value Mechanism
 Attention is implemented through the [[query-key-value]] (QKV) mechanism:
@@ -32,16 +32,16 @@ Formula: Attention(Q, K, V) = softmax(QK^T / √d_k)V
 ## Evolution Across Papers
 - **Transformer (2017)**: Introduced as the sole mechanism, replacing recurrence entirely
 - **BERT (2018)**: Used bidirectional self-attention for [[pre-training]]
-- **GPT-3 (2020)**: Employed in autoregressive (unidirectional) manner for [[language modeling]]
+- **GPT-3 (2020)**: Employed in autoregressive (unidirectional) manner for [[language-modeling]]
 
 ## Related Concepts
 - [[query-key-value]]
 - [[self-attention]]
-- [[multi-head attention]]
+- [[multi-head-attention]]
 - [[Transformer]]
 - [[BERT]]
-- [[contextual embeddings]]
-- [[encoder-decoder architecture]]
+- [[contextual-embeddings]]
+- [[encoder-decoder-architecture]]
 
 ## References
 - "Attention Is All You Need" (Vaswani et al., 2017)

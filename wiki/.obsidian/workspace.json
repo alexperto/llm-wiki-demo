@@ -178,6 +178,11 @@
   },
   "active": "78054afe7ac6213a",
   "lastOpenFiles": [
+    "scaled-dot-product-attention.md",
+    "pre-training.md",
+    "fine-tuning.md",
+    "GPT-3.md",
+    "self-attention.md",
     "tokenization.md",
     "contextual-embeddings.md",
     "residual-connections.md",

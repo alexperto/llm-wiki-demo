@@ -11,7 +11,7 @@ The encoder-decoder structure has been a dominant architecture for sequence tran
 #### Encoder
 - Processes input sequence (x₁, ..., xₙ)
 - Produces continuous representations z = (z₁, ..., zₙ)
-- In [[Transformer]]: Stack of 6 identical layers with [[multi-head attention]] and [[feed-forward networks]]
+- In [[Transformer]]: Stack of 6 identical layers with [[multi-head-attention]] and [[feed-forward-networks]]
 
 #### Decoder
 - Takes encoder representations z
@@ -20,7 +20,7 @@ The encoder-decoder structure has been a dominant architecture for sequence tran
 
 ### Transformer Implementation
 The [[Transformer]] uses:
-- **Encoder**: [[Multi-head attention]] + feed-forward network per layer
+- **Encoder**: [[multi-head-attention]] + feed-forward network per layer
 - **Decoder**: Self-attention + cross-attention + feed-forward network per layer
 - **Attention Bridge**: Decoder attends to encoder output through cross-attention
 
@@ -38,7 +38,7 @@ The [[Transformer]] uses:
 ### Decoder-Only
 - **[[GPT-3]]**: Uses only decoder-style architecture
 - Autoregressive, unidirectional
-- Better for generation and [[few-shot learning]]
+- Better for generation and [[few-shot-learning]]
 
 ## Evolution
 1. **RNN-based** encoder-decoders with attention (pre-2017)
@@ -50,8 +50,8 @@ The [[Transformer]] uses:
 - [[Transformer]]
 - [[BERT]]
 - [[GPT-3]]
-- [[attention mechanism]]
-- [[multi-head attention]]
+- [[attention-mechanism]]
+- [[multi-head-attention]]
 - [[self-attention]]
 
 ## References

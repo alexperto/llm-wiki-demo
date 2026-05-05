@@ -1,7 +1,7 @@
 # Self-Attention
 
 ## Summary
-Self-attention (also called intra-attention) is an [[attention mechanism]] that relates different positions of a single sequence to compute a representation of that sequence.
+Self-attention (also called intra-attention) is an [[attention-mechanism]] that relates different positions of a single sequence to compute a representation of that sequence.
 
 ## Explanation
 Self-attention allows each position in a sequence to attend to all positions in the same sequence. This enables the model to capture dependencies regardless of their distance in the sequence.
@@ -23,11 +23,11 @@ Self-attention computes three vectors for each position:
 - **[[GPT-3]]**: Unidirectional (masked) self-attention for autoregressive generation
 
 ## Related Concepts
-- [[attention mechanism]]
-- [[multi-head attention]]
+- [[attention-mechanism]]
+- [[multi-head-attention]]
 - [[Transformer]]
 - [[BERT]]
-- [[bidirectional vs unidirectional models]]
+- [[bidirectional-vs-unidirectional-models]]
 
 ## References
 - "Attention Is All You Need" (Vaswani et al., 2017)

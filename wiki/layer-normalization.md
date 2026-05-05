@@ -23,8 +23,8 @@ Where:
 
 Layer normalization is applied **twice** in each [[Transformer]] block:
 
-1. **After attention sublayer**: Normalizes the output of [[multi-head attention]]
-2. **After feed-forward sublayer**: Normalizes the output of [[feed-forward networks]]
+1. **After attention sublayer**: Normalizes the output of [[multi-head-attention]]
+2. **After feed-forward sublayer**: Normalizes the output of [[feed-forward-networks]]
 
 Each normalization typically occurs:
 - **Post-norm** (original Transformer): After the residual connection
@@ -59,9 +59,9 @@ Each normalization typically occurs:
 
 ## Related Concepts
 - [[Transformer]]
-- [[residual connections]]
-- [[multi-head attention]]
-- [[feed-forward networks]]
+- [[residual-connections]]
+- [[multi-head-attention]]
+- [[feed-forward-networks]]
 - [[BERT]]
 - [[GPT-3]]
 

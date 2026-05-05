@@ -10,11 +10,11 @@ This distinction represents a fundamental architectural choice in language model
 - Process sequence left-to-right
 - Each token can only attend to previous tokens
 - Examples: [[GPT-3]], standard language models
-- Used for: Text generation, [[language modeling]]
+- Used for: Text generation, [[language-modeling]]
 
 **Advantages:**
 - Natural for generation tasks
-- Enables [[few-shot learning]] and [[in-context learning]]
+- Enables [[few-shot-learning]] and [[in-context-learning]]
 - Can generate coherent long-form text
 
 **Limitations:**
@@ -24,7 +24,7 @@ This distinction represents a fundamental architectural choice in language model
 ### Bidirectional Models
 - Can attend to both past and future context
 - Example: [[BERT]]
-- Enabled by [[masked language model]] objective
+- Enabled by [[masked-language-model]] objective
 
 **Advantages:**
 - Better for understanding tasks (classification, QA)
@@ -46,22 +46,22 @@ This distinction represents a fundamental architectural choice in language model
 ### GPT-3's Position
 [[GPT-3]] demonstrates:
 - Unidirectional models can achieve competitive performance through scale
-- [[Few-shot learning]] with autoregressive models rivals fine-tuned bidirectional models
+- [[few-shot-learning]] with autoregressive models rivals fine-tuned bidirectional models
 - Single unidirectional model handles diverse tasks without architectural modifications
 
 ### Resolution
 Different strengths for different use cases:
 - **Bidirectional**: Better for tasks requiring full context understanding when [[fine-tuning]]
-- **Unidirectional**: Better for generation and [[few-shot learning]]
+- **Unidirectional**: Better for generation and [[few-shot-learning]]
 - **Scale**: [[GPT-3]] shows that sufficient scale can compensate for architectural limitations
 
 ## Related Concepts
 - [[BERT]]
 - [[GPT-3]]
-- [[masked language model]]
-- [[language modeling]]
+- [[masked-language-model]]
+- [[language-modeling]]
 - [[self-attention]]
-- [[pre-training and fine-tuning]]
+- [[pre-training-and-fine-tuning]]
 
 ## References
 - "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)

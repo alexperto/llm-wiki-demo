@@ -13,7 +13,7 @@ The Masked Language Model (MLM) is a key innovation introduced in [[BERT]] that 
 4. Only masked tokens contribute to the loss
 
 ### Key Advantage
-Unlike left-to-right [[language modeling]], MLM enables the model to:
+Unlike left-to-right [[language-modeling]], MLM enables the model to:
 - Use context from both directions (bidirectional)
 - Learn deeper representations
 - Avoid unidirectional bias
@@ -28,10 +28,10 @@ Unlike left-to-right [[language modeling]], MLM enables the model to:
 
 ## Related Concepts
 - [[BERT]]
-- [[pre-training and fine-tuning]]
-- [[language modeling]]
-- [[bidirectional vs unidirectional models]]
-- [[next sentence prediction]]
+- [[pre-training-and-fine-tuning]]
+- [[language-modeling]]
+- [[bidirectional-vs-unidirectional-models]]
+- [[next-sentence-prediction]]
 
 ## References
 - "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)

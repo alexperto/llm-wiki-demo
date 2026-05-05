@@ -1,7 +1,7 @@
 # InstructGPT
 
 ## Summary
-InstructGPT is a version of [[GPT-3]] fine-tuned with [[reinforcement learning from human feedback]] (RLHF) to better follow user instructions and align with human intent.
+InstructGPT is a version of [[GPT-3]] fine-tuned with [[RLHF]] (RLHF) to better follow user instructions and align with human intent.
 
 ## Explanation
 InstructGPT addresses a key limitation of large language models: they don't inherently follow user intent well, often generating outputs that are untruthful, toxic, or unhelpful. The model demonstrates that [[fine-tuning]] with human feedback can align language models with user intentions.
@@ -23,15 +23,15 @@ The paper notes an "alignment tax" - some performance regressions on public NLP 
 
 ## Contradiction/Difference with Other Models
 - **vs [[GPT-3]]**: InstructGPT is explicitly optimized for [[alignment]] with human intent, while GPT-3 is optimized only for next-token prediction
-- **vs [[BERT]]**: Different training paradigm - InstructGPT uses [[RLHF]] on top of autoregressive pre-training, while BERT uses [[masked language model]] pre-training followed by supervised fine-tuning
+- **vs [[BERT]]**: Different training paradigm - InstructGPT uses [[RLHF]] on top of autoregressive pre-training, while BERT uses [[masked-language-model]] pre-training followed by supervised fine-tuning
 
 ## Related Concepts
 - [[RLHF]]
 - [[alignment]]
 - [[GPT-3]]
 - [[fine-tuning]]
-- [[foundation models]]
-- [[pre-training and fine-tuning]]
+- [[foundation-models]]
+- [[pre-training-and-fine-tuning]]
 
 ## References
 - Paper: "Training language models to follow instructions with human feedback" (Ouyang et al., 2022)

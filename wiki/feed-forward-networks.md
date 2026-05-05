@@ -22,7 +22,7 @@ FFN(x) = max(0, xW₁ + b₁)W₂ + b₂
 
 ## Role in Transformer
 Each [[Transformer]] layer has:
-1. [[Multi-head attention]] sublayer
+1. [[multi-head-attention]] sublayer
 2. Feed-forward network sublayer
 3. Residual connections around both
 4. Layer normalization
@@ -39,8 +39,8 @@ Each [[Transformer]] layer has:
 
 ## Related Concepts
 - [[Transformer]]
-- [[multi-head attention]]
-- [[encoder-decoder architecture]]
+- [[multi-head-attention]]
+- [[encoder-decoder-architecture]]
 - [[BERT]]
 - [[GPT-3]]
 

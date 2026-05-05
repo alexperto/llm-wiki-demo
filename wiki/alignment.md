@@ -26,7 +26,7 @@ Language models face a mismatch between:
 - Reflects that benchmarks don't fully capture desired behavior
 
 ### Broader Considerations
-The [[foundation models]] report emphasizes:
+The [[foundation-models]] report emphasizes:
 - Alignment is fundamentally sociotechnical, not just technical
 - Must consider inequity, misuse, and ethical implications
 - Homogenization means alignment failures propagate widely
@@ -46,7 +46,7 @@ Papers acknowledge:
 ## Related Concepts
 - [[InstructGPT]]
 - [[RLHF]]
-- [[foundation models]]
+- [[foundation-models]]
 - [[GPT-3]]
 - [[fine-tuning]]
 

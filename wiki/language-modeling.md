@@ -4,7 +4,7 @@
 The task of predicting the next token in a sequence given the previous tokens, serving as both a training objective and a fundamental capability of language models.
 
 ## Explanation
-Language modeling has evolved from a specific NLP task to the primary pre-training objective for modern [[foundation models]].
+Language modeling has evolved from a specific NLP task to the primary pre-training objective for modern [[foundation-models]].
 
 ### Autoregressive Language Modeling
 Standard approach used in [[GPT-3]]:
@@ -21,7 +21,7 @@ Papers identify key limitation:
 ## Alternatives and Extensions
 
 ### Masked Language Modeling
-[[BERT]]'s approach (see [[masked language model]]):
+[[BERT]]'s approach (see [[masked-language-model]]):
 - Bidirectional context
 - Better for understanding tasks
 - Not directly generative
@@ -33,9 +33,9 @@ Papers identify key limitation:
 - Addresses gap between likelihood and helpfulness
 
 ## Evolution Across Papers
-1. **[[Transformer]]** (2017): Enables better language modeling through [[attention mechanism]]
-2. **[[BERT]]** (2018): Challenges pure language modeling with [[masked language model]]
-3. **[[GPT-3]]** (2020): Shows language modeling at scale enables [[few-shot learning]]
+1. **[[Transformer]]** (2017): Enables better language modeling through [[attention-mechanism]]
+2. **[[BERT]]** (2018): Challenges pure language modeling with [[masked-language-model]]
+3. **[[GPT-3]]** (2020): Shows language modeling at scale enables [[few-shot-learning]]
 4. **[[InstructGPT]]** (2022): Shows language modeling alone insufficient for [[alignment]]
 
 ## Contradictions
@@ -44,10 +44,10 @@ Papers identify key limitation:
 
 ## Related Concepts
 - [[GPT-3]]
-- [[masked language model]]
+- [[masked-language-model]]
 - [[InstructGPT]]
-- [[pre-training and fine-tuning]]
-- [[bidirectional vs unidirectional models]]
+- [[pre-training-and-fine-tuning]]
+- [[bidirectional-vs-unidirectional-models]]
 - [[BERT]]
 
 ## References

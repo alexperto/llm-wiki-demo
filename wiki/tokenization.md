@@ -52,7 +52,7 @@ BPE is the most common subword tokenization method:
 1. **Tokenize**: "Thanks for all the" → ["Thanks", "for", "all", "the"]
 2. **Convert to IDs**: Look up vocab indices → [5, 4000, 10532, 2224]
 3. **Embed**: Map IDs to embedding vectors
-4. **Add position**: Combine with [[positional encoding]]
+4. **Add position**: Combine with [[positional-encoding]]
 
 ### Model-Specific Approaches
 
@@ -87,8 +87,8 @@ BPE is the most common subword tokenization method:
 ## Relationship to Other Concepts
 
 - **Feeds into [[Transformer]]**: Tokens are basic input units
-- **Affects [[in-context learning]]**: Token limit determines context window
-- **Impacts [[few-shot learning]]**: More examples need more tokens
+- **Affects [[in-context-learning]]**: Token limit determines context window
+- **Impacts [[few-shot-learning]]**: More examples need more tokens
 - **Embedding**: Each token ID maps to learned vector
 
 ## Common Issues
@@ -107,9 +107,9 @@ BPE is the most common subword tokenization method:
 - [[Transformer]]
 - [[BERT]]
 - [[GPT-3]]
-- [[positional encoding]]
-- [[in-context learning]]
-- [[contextual embeddings]]
+- [[positional-encoding]]
+- [[in-context-learning]]
+- [[contextual-embeddings]]
 
 ## References
 - "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018) - mentions WordPiece

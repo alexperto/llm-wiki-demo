@@ -8,7 +8,7 @@ Pre-training and fine-tuning has become a dominant approach in NLP, enabling mod
 
 ### Pre-training Stage
 - Train on large unlabeled corpora
-- Use self-supervised objectives (e.g., [[masked language model]], next token prediction)
+- Use self-supervised objectives (e.g., [[masked-language-model]], next token prediction)
 - Learn general representations and patterns
 - Examples: [[BERT]] pre-training, GPT pre-training
 
@@ -22,15 +22,15 @@ Pre-training and fine-tuning has become a dominant approach in NLP, enabling mod
 
 ### BERT Approach
 [[BERT]] uses:
-- Pre-training: [[Masked language model]] + [[Next sentence prediction]]
+- Pre-training: [[masked-language-model]] + [[next-sentence-prediction]]
 - Fine-tuning: Add one output layer and train on downstream task
 - Described as "fine-tuning based approach"
 
 ### GPT-3 Alternative
 [[GPT-3]] challenges this paradigm:
-- Uses [[few-shot learning]] instead of fine-tuning
+- Uses [[few-shot-learning]] instead of fine-tuning
 - Tasks specified via text prompts, no parameter updates
-- Shows that scale enables task-agnostic [[in-context learning]]
+- Shows that scale enables task-agnostic [[in-context-learning]]
 
 ### InstructGPT Hybrid
 [[InstructGPT]] combines both:
@@ -46,9 +46,9 @@ Pre-training and fine-tuning has become a dominant approach in NLP, enabling mod
 - [[BERT]]
 - [[GPT-3]]
 - [[InstructGPT]]
-- [[few-shot learning]]
-- [[transfer learning]]
-- [[masked language model]]
+- [[few-shot-learning]]
+- [[transfer-learning]]
+- [[masked-language-model]]
 - [[RLHF]]
 
 ## References

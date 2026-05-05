@@ -16,18 +16,18 @@ Modern transfer learning typically involves:
 
 ### BERT's Approach
 [[BERT]] demonstrates transfer learning through:
-- [[Pre-training]] on large corpus with [[masked language model]]
+- [[Pre-training]] on large corpus with [[masked-language-model]]
 - [[Fine-tuning]] with single additional layer for downstream tasks
 - Same pre-trained model works for diverse tasks
 
 ### GPT-3's Approach
 [[GPT-3]] shows an extreme form:
 - Pre-train massive model on diverse text
-- Transfer to new tasks via [[few-shot learning]]
+- Transfer to new tasks via [[few-shot-learning]]
 - No parameter updates needed (true zero-shot transfer)
 
 ### Foundation Models Framing
-[[Foundation models]] report positions transfer learning as:
+[[foundation-models]] report positions transfer learning as:
 - Core principle of foundation models
 - Scale changes the nature of transfer
 - "Based on standard deep learning and transfer learning"
@@ -45,18 +45,18 @@ All papers build on transfer learning but differ in transfer mechanism:
 - More efficient than training from scratch
 
 ## Scale Effects
-[[Foundation models]] and [[GPT-3]] show:
+[[foundation-models]] and [[GPT-3]] show:
 - Scale amplifies transfer learning benefits
-- [[Emergent abilities]] arise from transfer at scale
+- [[emergent-abilities]] arise from transfer at scale
 - Single model can transfer to unprecedented range of tasks
 
 ## Related Concepts
-- [[pre-training and fine-tuning]]
-- [[few-shot learning]]
+- [[pre-training-and-fine-tuning]]
+- [[few-shot-learning]]
 - [[BERT]]
 - [[GPT-3]]
-- [[foundation models]]
-- [[in-context learning]]
+- [[foundation-models]]
+- [[in-context-learning]]
 
 ## References
 - "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)
