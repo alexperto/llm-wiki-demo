@@ -2,12 +2,18 @@
 
 This wiki contains key concepts extracted from foundational papers in large language model research.
 
-## Source Papers
+## Source Papers (Included)
 1. "Attention Is All You Need" (Vaswani et al., 2017) - ArXiv: 1706.03762v7
 2. "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018) - ArXiv: 1810.04805v2
 3. "Language Models are Few-Shot Learners" (Brown et al., 2020) - ArXiv: 2005.14165v4
 4. "On the Opportunities and Risks of Foundation Models" (Bommasani et al., 2021) - ArXiv: 2108.07258v3
 5. "Training language models to follow instructions with human feedback" (Ouyang et al., 2022) - ArXiv: 2203.02155v1
+
+## Papers Reviewed but Out of Scope
+- "Semantic Consistency enhanced Graph Neural Network Guided by Granular-ball Computing" (Tian et al., 2026) - ArXiv: 2605.02617v1
+  - **Domain**: Graph Neural Networks and graph representation learning
+  - **Reason for exclusion**: Focuses on GNNs for graph-structured data, not Transformer-based language models
+  - **Note**: While it mentions "attention" in reference to Graph Attention Networks, this is a different application of attention mechanisms unrelated to the self-attention used in language model Transformers
 
 ## Core Concepts
 
