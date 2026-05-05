@@ -33,20 +33,20 @@ Aligns model objectives with actual human preferences rather than just likelihoo
 - Some "alignment tax" on standard benchmarks
 
 ## Relationship to Other Concepts
-- **Builds on [[pre-training and fine-tuning]]**: RLHF is an additional fine-tuning stage
+- **Builds on [[pre-training-and-fine-tuning]]**: RLHF is an additional fine-tuning stage
 - **Enables [[alignment]]**: Core technique for aligning models with human values
 - **Used in [[InstructGPT]]**: Primary training method
-- **Applied to [[foundation models]]**: Can be applied to various base models
+- **Applied to [[foundation-models]]**: Can be applied to various base models
 
 ## Broader Context
-The [[foundation models]] report discusses RLHF as one approach to addressing safety and alignment concerns with large models.
+The [[foundation-models]] report discusses RLHF as one approach to addressing safety and alignment concerns with large models.
 
 ## Related Concepts
 - [[InstructGPT]]
 - [[alignment]]
 - [[fine-tuning]]
 - [[GPT-3]]
-- [[foundation models]]
+- [[foundation-models]]
 
 ## References
 - "Training language models to follow instructions with human feedback" (Ouyang et al., 2022)

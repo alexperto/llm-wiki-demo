@@ -1,7 +1,7 @@
 # Multi-Head Attention
 
 ## Summary
-An [[attention mechanism]] that uses multiple attention functions in parallel, allowing the model to jointly attend to information from different representation subspaces at different positions.
+An [[attention-mechanism]] that uses multiple attention functions in parallel, allowing the model to jointly attend to information from different representation subspaces at different positions.
 
 ## Explanation
 Multi-head attention is a key component of the [[Transformer]] architecture. Instead of performing a single attention function, it runs multiple attention mechanisms in parallel and concatenates their outputs.
@@ -29,7 +29,7 @@ The [[Transformer]] paper uses:
 - **[[GPT-3]]**: Used throughout the autoregressive model
 
 ## Related Concepts
-- [[attention mechanism]]
+- [[attention-mechanism]]
 - [[self-attention]]
 - [[Transformer]]
 - [[BERT]]

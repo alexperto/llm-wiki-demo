@@ -26,7 +26,7 @@ Each [[Transformer]] block contains **two residual connections**:
 2. **Around feed-forward network**:
    - output = x + FeedForward(x)
 
-Combined with [[layer normalization]], the typical pattern is:
+Combined with [[layer-normalization]], the typical pattern is:
 - **Post-norm**: x = LayerNorm(x + Sublayer(x))
 - **Pre-norm**: x = x + Sublayer(LayerNorm(x))
 
@@ -45,7 +45,7 @@ Combined with [[layer normalization]], the typical pattern is:
 **Residual Stream Perspective:**
 - Can view the network as maintaining a "residual stream" of information
 - Each layer reads from and writes to this stream
-- [[Attention mechanism]] and [[feed-forward networks]] add information to the stream
+- [[attention-mechanism]] and [[feed-forward-networks]] add information to the stream
 
 ### Historical Context
 
@@ -64,13 +64,13 @@ Modern interpretability research views transformers as:
 - Maintaining a **residual stream** for each token
 - Attention and FFN layers **add** to this stream
 - Each position's stream flows upward through the network
-- [[Multi-head attention]] can move information between streams
+- [[multi-head-attention]] can move information between streams
 
 ## Related Concepts
 - [[Transformer]]
-- [[layer normalization]]
-- [[multi-head attention]]
-- [[feed-forward networks]]
+- [[layer-normalization]]
+- [[multi-head-attention]]
+- [[feed-forward-networks]]
 - [[BERT]]
 - [[GPT-3]]
 

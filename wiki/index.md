@@ -40,11 +40,14 @@ This wiki contains key concepts extracted from foundational papers in large lang
 - [[InstructGPT]] - GPT-3 fine-tuned with RLHF to better follow user instructions
 
 ### Training Paradigms & Objectives
+- [[fine-tuning]] - Adapting pre-trained models to specific tasks with labeled data
 - [[language-modeling]] - Task of predicting next token given previous tokens
 - [[masked-language-model]] - Pre-training objective where masked tokens are predicted from context
 - [[next-sentence-prediction]] - BERT pre-training task predicting if sentences are consecutive
-- [[pre-training-and-fine-tuning]] - Two-stage training with general pre-training then task-specific fine-tuning
+- [[pre-training]] - First-stage training on large unlabeled corpora to learn general representations
+- [[pre-training-and-fine-tuning]] - Two-stage training paradigm combining both approaches
 - [[RLHF]] - Reinforcement Learning from Human Feedback for aligning models with human preferences
+- [[scaled-dot-product-attention]] - Specific attention formula with scaling factor used in Transformers
 - [[transfer-learning]] - Applying knowledge from one task to different but related tasks
 
 ### Learning Modes & Capabilities

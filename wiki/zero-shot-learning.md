@@ -4,7 +4,7 @@
 The ability of a model to perform a task without any task-specific training examples, using only a natural language description or instruction.
 
 ## Explanation
-Zero-shot learning represents the most extreme form of [[transfer learning]], where a model attempts tasks it has never seen examples of during training or in the prompt.
+Zero-shot learning represents the most extreme form of [[transfer-learning]], where a model attempts tasks it has never seen examples of during training or in the prompt.
 
 ### How It Works
 1. Provide task description in natural language
@@ -16,7 +16,7 @@ Zero-shot learning represents the most extreme form of [[transfer learning]], wh
 [[GPT-3]] demonstrates zero-shot capabilities:
 - Task specified purely via text description
 - Performance improves steadily with model size
-- Some tasks work well zero-shot, others benefit more from [[few-shot learning]]
+- Some tasks work well zero-shot, others benefit more from [[few-shot-learning]]
 
 ### Terminology Note
 The [[GPT-3]] paper notes the term is "potentially ambiguous":
@@ -27,14 +27,14 @@ The [[GPT-3]] paper notes the term is "potentially ambiguous":
 ## Performance Characteristics
 From [[GPT-3]]:
 - Zero-shot performance improves steadily with scale
-- [[Few-shot learning]] improves more rapidly than zero-shot
+- [[few-shot-learning]] improves more rapidly than zero-shot
 - Larger models better leverage few-shot examples
 - Some tasks remain challenging even at large scale
 
 ## Comparison with Other Learning Modes
 - **Zero-shot**: Task description only
-- **[[One-shot learning]]**: Single example
-- **[[Few-shot learning]]**: Multiple examples (10-100)
+- **[[one-shot-learning]]**: Single example
+- **[[few-shot-learning]]**: Multiple examples (10-100)
 - **[[Fine-tuning]]**: Thousands of examples with gradient updates
 
 ## InstructGPT Connection
@@ -45,11 +45,11 @@ From [[GPT-3]]:
 
 ## Related Concepts
 - [[GPT-3]]
-- [[few-shot learning]]
-- [[one-shot learning]]
-- [[in-context learning]]
+- [[few-shot-learning]]
+- [[one-shot-learning]]
+- [[in-context-learning]]
 - [[InstructGPT]]
-- [[foundation models]]
+- [[foundation-models]]
 
 ## References
 - "Language Models are Few-Shot Learners" (Brown et al., 2020)

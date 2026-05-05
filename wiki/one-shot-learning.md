@@ -4,7 +4,7 @@
 The ability of a model to perform a task given exactly one demonstration example in the input context, without any parameter updates.
 
 ## Explanation
-One-shot learning sits between [[zero-shot learning]] (no examples) and [[few-shot learning]] (multiple examples) in the spectrum of [[in-context learning]] capabilities.
+One-shot learning sits between [[zero-shot-learning]] (no examples) and [[few-shot-learning]] (multiple examples) in the spectrum of [[in-context-learning]] capabilities.
 
 ### How It Works
 1. Provide single example of desired task behavior
@@ -13,9 +13,9 @@ One-shot learning sits between [[zero-shot learning]] (no examples) and [[few-sh
 4. No gradient updates occur
 
 ### Position in Learning Spectrum
-- **[[Zero-shot]]**: No examples, just description
+- **[[zero-shot-learning]]**: No examples, just description
 - **One-shot**: Single example ←
-- **[[Few-shot]]**: Multiple examples (10-100)
+- **[[few-shot-learning]]**: Multiple examples (10-100)
 - **Fine-tuning**: Thousands of examples with training
 
 ## Performance in GPT-3
@@ -33,17 +33,17 @@ One-shot particularly valuable when:
 - Zero-shot fails but few examples not available
 
 ## Scale Dependency
-Like other [[in-context learning]] modes:
+Like other [[in-context-learning]] modes:
 - Performance improves with model size
 - Larger models better utilize single example
 - Part of broader emergent capability from scale
 
 ## Related Concepts
-- [[few-shot learning]]
-- [[zero-shot learning]]
-- [[in-context learning]]
+- [[few-shot-learning]]
+- [[zero-shot-learning]]
+- [[in-context-learning]]
 - [[GPT-3]]
-- [[emergent abilities]]
+- [[emergent-abilities]]
 
 ## References
 - "Language Models are Few-Shot Learners" (Brown et al., 2020)

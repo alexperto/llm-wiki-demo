@@ -8,8 +8,8 @@ Emergent abilities are behaviors that appear when models reach certain scale thr
 
 ### Examples from GPT-3
 [[GPT-3]] demonstrated several emergent abilities:
-- Strong [[few-shot learning]] without any fine-tuning
-- [[In-context learning]] from demonstrations
+- Strong [[few-shot-learning]] without any fine-tuning
+- [[in-context-learning]] from demonstrations
 - Arithmetic reasoning (3-digit arithmetic)
 - Word unscrambling
 - Novel word usage
@@ -22,7 +22,7 @@ Emergent abilities are behaviors that appear when models reach certain scale thr
 - Smaller models may not show the ability at all
 
 ### Foundation Models Perspective
-The [[foundation models]] report notes:
+The [[foundation-models]] report notes:
 - Scale results in new emergent capabilities
 - We lack clear understanding of what models are capable of
 - Emergent properties make behavior prediction difficult
@@ -44,15 +44,15 @@ The [[foundation models]] report notes:
 ## Related to Scale
 The papers show consistent theme:
 - [[GPT-3]]: Larger models → better few-shot learning (emergent capability)
-- [[Foundation models]]: Scale creates emergence and new challenges
+- [[foundation-models]]: Scale creates emergence and new challenges
 - [[InstructGPT]]: Even small aligned models can outperform large base models (emergence from alignment, not just scale)
 
 ## Related Concepts
 - [[GPT-3]]
-- [[foundation models]]
-- [[few-shot learning]]
-- [[in-context learning]]
-- [[language modeling]]
+- [[foundation-models]]
+- [[few-shot-learning]]
+- [[in-context-learning]]
+- [[language-modeling]]
 
 ## References
 - "Language Models are Few-Shot Learners" (Brown et al., 2020)

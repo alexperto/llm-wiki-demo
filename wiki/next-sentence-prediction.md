@@ -19,13 +19,13 @@ Enables BERT to:
 - Jointly pre-train text-pair representations
 
 ## Training Details
-- Combined with [[masked language model]] during pre-training
+- Combined with [[masked-language-model]] during pre-training
 - Both objectives trained simultaneously
 - Contributes to [[BERT]]'s bidirectional understanding
 
 ## Relationship to BERT
 Part of [[BERT]]'s two-task pre-training:
-1. **[[Masked Language Model]]** (MLM): Token-level understanding
+1. **[[masked-language-model]]** (MLM): Token-level understanding
 2. **Next Sentence Prediction** (NSP): Sentence-level understanding
 
 Together they enable:
@@ -37,9 +37,9 @@ Subsequent research (not in these papers) has questioned NSP's necessity, with s
 
 ## Related Concepts
 - [[BERT]]
-- [[masked language model]]
-- [[pre-training and fine-tuning]]
-- [[transfer learning]]
+- [[masked-language-model]]
+- [[pre-training-and-fine-tuning]]
+- [[transfer-learning]]
 
 ## References
 - "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)

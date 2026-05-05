@@ -7,9 +7,9 @@ Foundation models are models trained on broad data at scale that can be adapted 
 The "On the Opportunities and Risks of Foundation Models" report (2021) introduced this term to describe a paradigm shift in AI where models like [[BERT]], [[GPT-3]], and DALL-E are trained using self-supervision at scale and then adapted to many tasks.
 
 ### Key Characteristics
-1. **Emergence**: Scale results in new [[emergent abilities]] and capabilities
+1. **Emergence**: Scale results in new [[emergent-abilities]] and capabilities
 2. **Homogenization**: Effectiveness across many tasks incentivizes using the same base model
-3. **Transfer**: Based on [[transfer learning]] principles but at unprecedented scale
+3. **Transfer**: Based on [[transfer-learning]] principles but at unprecedented scale
 
 ### Capabilities
 Foundation models span multiple domains:
@@ -34,17 +34,17 @@ The report emphasizes foundation models are fundamentally sociotechnical, requir
 ## Relationship to Other Concepts
 - **Examples**: [[BERT]], [[GPT-3]], [[InstructGPT]] are all foundation models
 - **Training**: Relies on [[pre-training]] at massive scale
-- **Adaptation**: Uses [[fine-tuning]], [[few-shot learning]], or [[RLHF]]
-- **Properties**: Exhibits [[emergent abilities]]
+- **Adaptation**: Uses [[fine-tuning]], [[few-shot-learning]], or [[RLHF]]
+- **Properties**: Exhibits [[emergent-abilities]]
 
 ## Related Concepts
-- [[pre-training and fine-tuning]]
-- [[transfer learning]]
-- [[emergent abilities]]
+- [[pre-training-and-fine-tuning]]
+- [[transfer-learning]]
+- [[emergent-abilities]]
 - [[BERT]]
 - [[GPT-3]]
 - [[InstructGPT]]
-- [[few-shot learning]]
+- [[few-shot-learning]]
 
 ## References
 - Paper: "On the Opportunities and Risks of Foundation Models" (Bommasani et al., 2021)

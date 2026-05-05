@@ -7,12 +7,12 @@ BERT (Bidirectional Encoder Representations from Transformers) is a language rep
 BERT revolutionized NLP by introducing bidirectional [[pre-training]] for language representations. Unlike previous models that used unidirectional language models, BERT uses two novel pre-training objectives:
 
 ### Pre-training Tasks
-1. **[[Masked Language Model]] (MLM)**: Randomly masks tokens and predicts them based on surrounding context
-2. **[[Next Sentence Prediction]] (NSP)**: Predicts whether two sentences are consecutive
+1. **[[masked-language-model]] (MLM)**: Randomly masks tokens and predicts them based on surrounding context
+2. **[[next-sentence-prediction]] (NSP)**: Predicts whether two sentences are consecutive
 
 ### Key Innovations
 - **Bidirectional Context**: Can incorporate context from both left and right, unlike autoregressive models
-- **[[Transfer Learning]]**: Pre-trained model can be fine-tuned with just one additional output layer
+- **[[transfer-learning]]**: Pre-trained model can be fine-tuned with just one additional output layer
 - **Task-Agnostic Architecture**: Same architecture works for many downstream tasks
 
 ### Architecture
@@ -27,16 +27,16 @@ Achieved state-of-the-art on 11 NLP tasks including:
 - MultiNLI accuracy: 86.7%
 
 ## Contradiction with Other Approaches
-- **vs GPT-3**: BERT uses bidirectional attention and requires [[fine-tuning]] for downstream tasks, while [[GPT-3]] uses unidirectional attention and performs [[few-shot learning]] without fine-tuning
+- **vs GPT-3**: BERT uses bidirectional attention and requires [[fine-tuning]] for downstream tasks, while [[GPT-3]] uses unidirectional attention and performs [[few-shot-learning]] without fine-tuning
 - **vs InstructGPT**: BERT focuses on learning representations, while [[InstructGPT]] focuses on [[alignment]] with user intent
 
 ## Related Concepts
-- [[pre-training and fine-tuning]]
-- [[masked language model]]
-- [[next sentence prediction]]
+- [[pre-training-and-fine-tuning]]
+- [[masked-language-model]]
+- [[next-sentence-prediction]]
 - [[Transformer]]
-- [[bidirectional vs unidirectional models]]
-- [[transfer learning]]
+- [[bidirectional-vs-unidirectional-models]]
+- [[transfer-learning]]
 
 ## References
 - Paper: "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding" (Devlin et al., 2018)

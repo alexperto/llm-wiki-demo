@@ -16,18 +16,18 @@ In-context learning describes how models like [[GPT-3]] can identify and execute
 [[GPT-3]] demonstrated that in-context learning:
 - Improves significantly with model scale
 - Larger models show steeper learning curves
-- Enables [[emergent abilities]] at sufficient scale
+- Enables [[emergent-abilities]] at sufficient scale
 - Works across diverse task types
 
 ### Terminology
 The papers use related terms:
 - **"In-context learning"**: General ability to learn from context
-- **"[[Few-shot learning]]"**: In-context learning with multiple examples
-- **"[[Zero-shot learning]]"**: In-context learning with just task description
-- **"[[One-shot learning]]"**: In-context learning with single example
+- **"[[few-shot-learning]]"**: In-context learning with multiple examples
+- **"[[zero-shot-learning]]"**: In-context learning with just task description
+- **"[[one-shot-learning]]"**: In-context learning with single example
 
 ## Theoretical Understanding
-The [[foundation models]] report notes:
+The [[foundation-models]] report notes:
 - In-context learning involves absorbing many skills within model parameters during [[pre-training]]
 - Creates a form of meta-learning capability
 - Mechanism not fully understood despite widespread use
@@ -38,13 +38,13 @@ The [[foundation models]] report notes:
 - Prompt engineering crucial for best results
 
 ## Related Concepts
-- [[few-shot learning]]
-- [[zero-shot learning]]
+- [[few-shot-learning]]
+- [[zero-shot-learning]]
 - [[GPT-3]]
-- [[foundation models]]
-- [[emergent abilities]]
+- [[foundation-models]]
+- [[emergent-abilities]]
 - [[Transformer]]
-- [[attention mechanism]]
+- [[attention-mechanism]]
 
 ## References
 - "Language Models are Few-Shot Learners" (Brown et al., 2020)

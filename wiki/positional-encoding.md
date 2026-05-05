@@ -7,7 +7,7 @@ A mechanism to inject information about token positions into the [[Transformer]]
 Since the [[Transformer]] architecture contains no recurrence or convolution, it has no inherent notion of token order. Positional encoding solves this by adding position-dependent signals to the input embeddings.
 
 ### Why It's Needed
-[[Attention mechanism]]s are permutation-invariant:
+[[attention-mechanism]]s are permutation-invariant:
 - Self-attention treats input as a set, not a sequence
 - Without positional information, "cat ate mouse" = "mouse ate cat"
 - Position encoding restores sequential structure
@@ -41,7 +41,7 @@ Critical for:
 
 ## Related Concepts
 - [[Transformer]]
-- [[attention mechanism]]
+- [[attention-mechanism]]
 - [[self-attention]]
 - [[BERT]]
 - [[GPT-3]]

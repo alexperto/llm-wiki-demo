@@ -1,7 +1,7 @@
 # Query-Key-Value (QKV)
 
 ## Summary
-The Query-Key-Value mechanism is the fundamental computation pattern underlying the [[attention mechanism]] in [[Transformer]] models, where each token is represented in three roles to compute attention weights and output values.
+The Query-Key-Value mechanism is the fundamental computation pattern underlying the [[attention-mechanism]] in [[Transformer]] models, where each token is represented in three roles to compute attention weights and output values.
 
 ## Explanation
 The QKV mechanism is central to understanding how [[self-attention]] works. Each input token is transformed into three different representations, each serving a specific purpose in the attention computation.
@@ -42,7 +42,7 @@ Think of a library:
 
 ## Relationship to Multi-Head Attention
 
-In [[multi-head attention]], separate Q, K, V projections are learned for each head:
+In [[multi-head-attention]], separate Q, K, V projections are learned for each head:
 - q^c_i = x_i × W^c_Q (query for head c)
 - k^c_j = x_j × W^c_K (key for head c)
 - v^c_j = x_j × W^c_V (value for head c)
@@ -64,9 +64,9 @@ The separation allows:
 - **All modern LLMs**: Fundamental building block
 
 ## Related Concepts
-- [[attention mechanism]]
+- [[attention-mechanism]]
 - [[self-attention]]
-- [[multi-head attention]]
+- [[multi-head-attention]]
 - [[Transformer]]
 - [[scaled dot-product attention]]
 
