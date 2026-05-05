@@ -8,6 +8,7 @@ This wiki contains key concepts extracted from foundational papers in large lang
 3. "Language Models are Few-Shot Learners" (Brown et al., 2020) - ArXiv: 2005.14165v4
 4. "On the Opportunities and Risks of Foundation Models" (Bommasani et al., 2021) - ArXiv: 2108.07258v3
 5. "Training language models to follow instructions with human feedback" (Ouyang et al., 2022) - ArXiv: 2203.02155v1
+6. "Introduction to Transformers" - Educational resource (new_source.pdf) - Explains transformer architecture, QKV mechanism, layer normalization, residual connections, and contextual embeddings
 
 ## Papers Reviewed but Out of Scope
 - "Semantic Consistency enhanced Graph Neural Network Guided by Granular-ball Computing" (Tian et al., 2026) - ArXiv: 2605.02617v1
@@ -20,11 +21,16 @@ This wiki contains key concepts extracted from foundational papers in large lang
 ### Architectures & Components
 - [[alignment]] - Ensuring AI models behave in accordance with human values and intentions
 - [[attention-mechanism]] - Mechanism allowing models to focus on different parts of input when producing output
+- [[contextual-embeddings]] - Word representations that change based on surrounding context
 - [[encoder-decoder-architecture]] - Architecture with encoder processing input and decoder generating output
 - [[feed-forward-networks]] - Position-wise fully connected layers in each Transformer layer
+- [[layer-normalization]] - Normalization technique applied to stabilize training in Transformers
 - [[multi-head-attention]] - Attention mechanism using multiple attention functions in parallel
 - [[positional-encoding]] - Mechanism to inject token position information into Transformer models
+- [[query-key-value]] - Core QKV mechanism underlying attention computation
+- [[residual-connections]] - Skip connections enabling training of deep networks
 - [[self-attention]] - Attention mechanism relating different positions within a single sequence
+- [[tokenization]] - Process of breaking text into tokens using methods like BPE
 - [[Transformer]] - Neural network architecture based entirely on attention mechanisms
 
 ### Models
